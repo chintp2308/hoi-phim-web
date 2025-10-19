@@ -1,0 +1,54 @@
+.card {
+  width: 211px;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.poster {
+  width: 100%;
+  border-radius: 8px;
+  height: 312px;
+  object-fit: cover;
+}
+.type {
+  position: absolute;
+  bottom: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 6px;
+}
+.type .left,
+.type .right {
+  width: 48px;
+  height: 24px;
+  border-radius: 4px;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left {
+  background-color: #5e6070;
+}
+.right {
+  background-color: #2ca35d;
+}
+
+.info {
+  text-align: center;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: #aaaaaa;
+  font-size: 12px;
+}
