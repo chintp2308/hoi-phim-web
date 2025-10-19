@@ -1,5 +1,4 @@
 .section {
-  padding: 30px 0;
   color: #fff;
 }
 
@@ -14,13 +13,11 @@
   gap: 16px;
   overflow: hidden;
   position: relative;
-  margin-bottom: 30px;
 }
 
 .card {
   position: relative;
   width: 220px;
-  margin-bottom: 40px;
   cursor: pointer;
   transition: transform 0.3s;
 }

@@ -7,6 +7,7 @@ import MovieCinema from "../components/MovieRap/MovieCinema";
 import MovieSectionNew from "../components/Movies/MovieSection/MovieSectionNew";
 import MovieSectionStandard from "../components/MovieStandard/MovieSectionGrid/MovieSectionStandard";
 import Top10Section from "../components/MovieTop/Top10Section";
+import MovieUpcoming from "../components/MovieUpcoming/MovieUpcoming";
 import DashboardSection from "../components/TopComment/DashboardSection";
 
 import styles from "./Home.module.css";
@@ -63,6 +64,7 @@ export default function Home() {
           title="Phim Thái New: Không Drama Đời Không Nể"
           style={{ fontSize: "28px" }}
         />
+        <MovieUpcoming title="Phim Sắp Tới Trên Hội Phim" />
         <Anime />
         <MovieSectionNew
           title="Điện Ảnh Hồng Kông ở Chỗ Này Này"
