@@ -1,0 +1,158 @@
+.bannerContainer {
+  width: 100%;
+  background-image: url("/images/banner.png");
+  background-size: cover;
+  background-position: center;
+  height: 860px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.bannerInfo {
+  position: absolute;
+  top: 242px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+  height: auto;
+}
+.bannerImage {
+  width: 100%;
+  height: 130px;
+}
+.bannerSpan {
+  font-size: 15px;
+  color: #ffd875;
+}
+.bannerDetails {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  button {
+    border-radius: 4px;
+    padding: 6px;
+    border: none;
+  }
+
+  .btn4K {
+    background-color: #f5c16c;
+    color: #000;
+    font-weight: 600;
+  }
+
+  .btnT13 {
+    background-color: #f8e1e4;
+    color: #000;
+    font-weight: 600;
+  }
+
+  .btnYear {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: white;
+    border: 2px solid white;
+  }
+
+  .btnTime {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 2px solid white;
+  }
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  button {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    color: white;
+    padding: 5px 6px;
+    font-weight: 400;
+    transition: background 0.3s ease;
+  }
+}
+.description {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.iconBanner {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.playButton {
+  width: 70px;
+  height: 70px;
+  border-radius: 99px;
+  background: linear-gradient(to right, #fecf59 30%, #fff1cc 100%);
+  position: relative;
+}
+.playIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 29px;
+  height: 29px;
+}
+.otherButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 140px;
+  height: 54px;
+  border: 2px solid #dddddd;
+  border-radius: 25px;
+}
+.likeIcon {
+  width: 20px;
+  height: 20px;
+  margin-left: 25px;
+}
+.divider {
+  width: 1px;
+  height: 100%;
+  background-color: #dddddd;
+}
+
+.infoIcon {
+  width: 20px;
+  height: 20px;
+  margin-right: 25px;
+}
+.overlayLeft {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 792px;
+  height: 100%;
+  background: linear-gradient(to right, #191b24 0%, rgba(25, 27, 36, 0) 80%);
+}
+.overlayBottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(to top, #191b24 0%, rgba(25, 27, 36, 0) 100%);
+}

@@ -1,0 +1,49 @@
+.card {
+  width: 160px;
+  overflow: hidden;
+  position: relative;
+}
+
+.poster {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+}
+.type {
+  position: absolute;
+  top: 65px;
+  left: 8px;
+  display: flex;
+  gap: 6px;
+}
+.type .left,
+.type .right {
+  width: 48px;
+  height: 24px;
+  border-radius: 4px;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left {
+  background-color: #5e6070;
+}
+.right {
+  background-color: #2ca35d;
+}
+
+.info {
+  padding-left: 10px;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: #aaaaaa;
+  font-size: 12px;
+}

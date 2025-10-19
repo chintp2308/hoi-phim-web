@@ -1,0 +1,90 @@
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.topicsSection {
+  color: #fff;
+  margin-top: 0;
+  position: relative;
+  z-index: 5;
+}
+
+.topicsSection h2 {
+  font-size: 28px;
+}
+
+.topicsGrid {
+  display: flex;
+  gap: 15px;
+}
+
+.topicCard {
+  width: 245px;
+  height: 152px;
+  border-radius: 12px;
+  background: #324fd1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 20px;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  position: relative;
+}
+.topicImage {
+  width: 100%;
+  height: 152px;
+  z-index: 1;
+  opacity: 0.1;
+  left: 0;
+  position: absolute;
+}
+
+.topicCard:nth-child(2) {
+  background: #7e7ea9;
+}
+
+.topicCard:nth-child(3) {
+  background: #3f9883;
+}
+
+.topicCard:nth-child(4) {
+  background: #8c7ac0;
+}
+
+.topicCard:nth-child(5) {
+  background: #d59379;
+}
+
+.topicCard:nth-child(6) {
+  background: #b55858;
+}
+.topicCard:nth-child(7) {
+  background: #4f5363;
+}
+
+.topicCard h3 {
+  font-size: 22px;
+}
+
+.topicCard p {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.topicCard:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+.standardSections {
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 16px;
+  padding: 32px 0 20px 32px;
+  background: linear-gradient(
+    180deg,
+    rgba(40, 43, 58, 1) 0%,
+    rgba(40, 43, 58, 0) 100%
+  );
+}

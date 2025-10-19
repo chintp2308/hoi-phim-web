@@ -1,0 +1,64 @@
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 12px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  min-width: 160px;
+}
+.title {
+  font-size: 28px;
+  line-height: 40px;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.viewAll {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+.viewAll button {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.icon {
+  width: 11px;
+  height: 15px;
+}
+.movieList {
+  display: flex;
+  gap: 16px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 30px;
+}
+.left {
+  display: flex;
+  gap: 16px;
+  overflow: hidden;
+  padding-right: 30px;
+}
+.rightButton {
+  background: #ffffff;
+  border: none;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  right: 10px;
+  top: 15%;
+}
