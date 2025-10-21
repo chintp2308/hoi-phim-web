@@ -156,3 +156,86 @@
   height: 200px;
   background: linear-gradient(to top, #191b24 0%, rgba(25, 27, 36, 0) 100%);
 }
+@media (max-width: 1024px) {
+  .bannerContainer {
+    height: 700px;
+  }
+
+  .bannerInfo {
+    top: 180px;
+    max-width: 500px;
+  }
+
+  .bannerImage {
+    height: 100px;
+  }
+
+  .bannerSpan {
+    font-size: 14px;
+  }
+
+  .bannerDetails {
+    font-size: 11px;
+  }
+
+  .playButton {
+    width: 60px;
+    height: 60px;
+  }
+
+  .otherButton {
+    width: 120px;
+    height: 48px;
+  }
+
+  .overlayLeft {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .bannerContainer {
+    height: 650px;
+  }
+
+  .bannerInfo {
+    top: 160px;
+    padding: 20px 20px;
+    max-width: 100%;
+    gap: 15px;
+  }
+
+  .bannerImage {
+    height: 80px;
+  }
+
+  .bannerSpan {
+    font-size: 13px;
+  }
+
+  .bannerDetails {
+    font-size: 11px;
+  }
+
+  .description {
+    font-size: 13px;
+  }
+
+  .iconBanner {
+    gap: 20px;
+  }
+
+  .playButton {
+    width: 55px;
+    height: 55px;
+  }
+
+  .otherButton {
+    width: 110px;
+    height: 44px;
+  }
+
+  .overlayLeft {
+    width: 80%;
+  }
+}

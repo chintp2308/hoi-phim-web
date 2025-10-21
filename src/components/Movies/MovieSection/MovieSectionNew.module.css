@@ -32,3 +32,27 @@
   gap: 16px;
   padding-right: 30px;
 }
+@media (max-width: 768px) {
+  .section {
+    gap: 5px;
+    margin-top: 10px;
+  }
+  .header {
+    gap: 10px;
+  }
+  .header h2 {
+    font-size: 20px;
+  }
+  .arrowBtn {
+    padding: 3px 6px;
+  }
+  .movieList {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+  }
+  .left {
+    gap: 5px;
+    padding-right: 0px;
+  }
+}

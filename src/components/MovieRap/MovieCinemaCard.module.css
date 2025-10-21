@@ -71,3 +71,35 @@
   color: #ccc;
   margin-top: 4px;
 }
+@media (max-width: 768px) {
+  .card {
+    width: 200px;
+  }
+
+  .thumb {
+    width: 35px;
+    height: 60px;
+  }
+
+  .tagLeft,
+  .tagRight {
+    font-size: 10px;
+  }
+
+  .info {
+    margin-top: 9px;
+  }
+
+  .title {
+    font-size: 13px;
+  }
+
+  .engTitle {
+    font-size: 11px;
+  }
+
+  .subInfo {
+    font-size: 11px;
+    margin-top: 2px;
+  }
+}

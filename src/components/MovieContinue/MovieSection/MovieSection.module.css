@@ -25,3 +25,23 @@
   overflow: hidden;
   padding-bottom: 90px;
 }
+@media (max-width: 768px) {
+  .section {
+    gap: 5px;
+    margin-top: 10px;
+  }
+  .header {
+    gap: 10px;
+  }
+  .header h2 {
+    font-size: 20px;
+  }
+  .arrowBtn {
+    padding: 5px 7px;
+  }
+  .movieList {
+    gap: 12px;
+
+    padding-bottom: 30px;
+  }
+}

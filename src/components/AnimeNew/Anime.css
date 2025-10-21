@@ -281,97 +281,77 @@
   font-weight: 500;
 }
 
-/* Responsive Design */
+/* Responsive cho màn hình nhỏ hơn hoặc bằng 768px */
 @media (max-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 10px;
+  }
+  .header {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  /* Hero Section */
+  .hero-section {
+    margin-bottom: 50px;
+    padding: 25px;
+  }
+
   .hero-content {
+    max-width: 100%;
+  }
+  .hero-image {
+    position: absolute;
+    bottom: -60px;
+    left: 50%;
+    overflow: hidden;
+  }
+  .items {
+    gap: 10px;
+  }
+
+  .hero-info {
+    display: flex;
     flex-direction: column;
-    text-align: center;
+    gap: 10px;
   }
 
   .hero-title {
     font-size: 2rem;
   }
 
-  .content-grid {
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    gap: 15px;
+  .hero-description {
+    font-size: 14px;
+    margin-bottom: 25px;
   }
 
-  .content-poster {
-    height: 160px;
+  .hero-controls {
+    display: flex;
+    gap: 10px;
+  }
+  .more-info,
+  .genre {
+    display: flex;
+    gap: 10px;
     font-size: 0.8rem;
+    flex-wrap: wrap;
   }
 
-  .container {
-    padding: 15px;
-  }
-}
-
-@media (max-width: 480px) {
-  .hero-title {
-    font-size: 1.8rem;
+  .play-btn {
+    font-size: 1.2rem;
+    width: 40px;
+    height: 40px;
   }
 
-  .content-grid {
-    grid-template-columns: repeat(2, 1fr);
+  .group-action {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 10px;
   }
-
-  .section-title {
-    font-size: 1.5rem;
-  }
-}
-
-/* Additional animations */
-.content-item {
-  animation: fadeInUp 0.6s ease forwards;
-  opacity: 0;
-  transform: translateY(20px);
-}
-
-.content-item:nth-child(1) {
-  animation-delay: 0.1s;
-}
-.content-item:nth-child(2) {
-  animation-delay: 0.2s;
-}
-.content-item:nth-child(3) {
-  animation-delay: 0.3s;
-}
-.content-item:nth-child(4) {
-  animation-delay: 0.4s;
-}
-.content-item:nth-child(5) {
-  animation-delay: 0.5s;
-}
-.content-item:nth-child(6) {
-  animation-delay: 0.6s;
-}
-.content-item:nth-child(7) {
-  animation-delay: 0.7s;
-}
-.content-item:nth-child(8) {
-  animation-delay: 0.8s;
-}
-
-@keyframes fadeInUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* Scroll animations */
-.hero-section {
-  animation: slideInFromTop 0.8s ease-out;
-}
-
-@keyframes slideInFromTop {
-  from {
-    opacity: 0;
-    transform: translateY(-30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
+  .pause-btn,
+  .next-btn {
+    width: 30px;
+    height: 30px;
   }
 }

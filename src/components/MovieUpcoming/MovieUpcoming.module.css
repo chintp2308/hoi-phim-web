@@ -47,16 +47,30 @@
   width: 11px;
   height: 15px;
 }
-.movieList {
-  display: flex;
-  gap: 16px;
-  overflow: hidden;
-  position: relative;
-  margin-bottom: 30px;
-}
+
 .left {
   display: flex;
   gap: 16px;
   overflow: hidden;
   padding-right: 30px;
+}
+@media (max-width: 768px) {
+  .header {
+    margin-bottom: 10px;
+  }
+
+  .header h2 {
+    font-size: 20px;
+  }
+
+  .viewAll button {
+    font-size: 12px;
+  }
+
+  .left {
+    display: flex;
+    gap: 5px;
+    overflow: hidden;
+    padding-right: 30px;
+  }
 }

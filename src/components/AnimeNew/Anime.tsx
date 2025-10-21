@@ -30,7 +30,7 @@ export default function Anime() {
             trường Chidori, bắt gặp Kaoruko Waguri...
             <div className="hero-controls">
               <button className="play-btn">▶</button>
-              <div className="goup-action">
+              <div className="group-action">
                 <button className="pause-btn">⏸</button>
                 <button className="next-btn">⏭</button>
               </div>

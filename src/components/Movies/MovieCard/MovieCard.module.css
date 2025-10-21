@@ -52,3 +52,36 @@
   color: #aaaaaa;
   font-size: 12px;
 }
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .poster {
+    height: 130px;
+  }
+  .type {
+    bottom: 110px;
+    left: 0px;
+    transform: translateX(0%);
+    gap: 0px;
+  }
+  .type .left,
+  .type .right {
+    width: 25px;
+    height: 18px;
+    border-radius: 4px;
+    font-size: 8px;
+  }
+
+  .title {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 0px;
+  }
+
+  .subtitle {
+    color: #aaaaaa;
+    font-size: 11px;
+  }
+}

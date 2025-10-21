@@ -88,3 +88,39 @@
     rgba(40, 43, 58, 0) 100%
   );
 }
+@media (max-width: 768px) {
+  .content {
+    max-width: 768px;
+    padding: 0 10px;
+  }
+
+  .topicsSection h2 {
+    font-size: 20px;
+  }
+
+  .topicsGrid {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .topicCard {
+    width: 110px;
+    height: 152px;
+    padding: 0 10px;
+  }
+  .topicCard h3 {
+    font-size: 20px;
+  }
+
+  .topicCard p {
+    font-size: 12px;
+  }
+
+  .standardSections {
+    max-width: 768px;
+    margin: 0 auto;
+    border-radius: 16px;
+    padding: 20px 0 10px 20px;
+  }
+}

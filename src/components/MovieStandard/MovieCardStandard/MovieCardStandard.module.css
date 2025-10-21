@@ -47,3 +47,37 @@
   color: #aaaaaa;
   font-size: 12px;
 }
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+  .type {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    gap: 0px;
+  }
+  .type .left,
+  .type .right {
+    width: 30px;
+    height: 18px;
+    border-radius: 4px;
+    font-size: 8px;
+  }
+
+  .info {
+    padding-left: 0px;
+  }
+
+  .title {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 0px;
+  }
+
+  .subtitle {
+    color: #aaaaaa;
+    font-size: 11px;
+    margin: 0px;
+  }
+}
