@@ -2,7 +2,7 @@ import Anime from "../components/AnimeNew/Anime";
 import Banner from "../components/Banner/Banner";
 import Footer from "../components/layout/Footer/Footer";
 import MovieSection from "../components/MovieContinue/MovieSection/MovieSection";
-import MovieCinema from "../components/MovieRap/MovieCinema";
+import MovieCinema from "../components/MovieCinema/MovieCinema";
 
 import MovieSectionNew from "../components/Movies/MovieSection/MovieSectionNew";
 import MovieSectionStandard from "../components/MovieStandard/MovieSectionGrid/MovieSectionStandard";

@@ -301,13 +301,24 @@
     max-width: 100%;
   }
   .hero-image {
-    position: absolute;
-    bottom: -60px;
-    left: 50%;
-    overflow: hidden;
+    overflow-x: auto; /* Cho phép cuộn ngang */
+    -webkit-overflow-scrolling: touch; /* Vuốt mượt trên iPhone */
+    bottom: -70px;
   }
+
   .items {
+    flex-wrap: nowrap; /* Giữ các ảnh trên 1 dòng */
+    overflow-x: auto; /* Cuộn ngang nếu tràn */
+    justify-content: flex-start; /* Căn trái */
     gap: 10px;
+    scroll-snap-type: x mandatory; /* Giúp cuộn "hít" vào từng ảnh */
+    padding: 10px 20px;
+  }
+
+  .items img {
+    flex: 0 0 auto; /* Không co giãn */
+    /* width: 90px; */
+    scroll-snap-align: start;
   }
 
   .hero-info {

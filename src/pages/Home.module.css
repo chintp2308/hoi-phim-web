@@ -20,7 +20,7 @@
 }
 
 .topicCard {
-  width: 245px;
+  width: 100%;
   height: 152px;
   border-radius: 12px;
   background: #324fd1;
@@ -102,11 +102,11 @@
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .topicCard {
-    width: 110px;
-    height: 152px;
+    width: 42%;
     padding: 0 10px;
   }
   .topicCard h3 {

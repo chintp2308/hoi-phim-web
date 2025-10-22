@@ -54,14 +54,14 @@
 }
 @media (max-width: 768px) {
   .card {
-    width: 100%;
+    width: 48%;
     margin-bottom: 10px;
   }
   .poster {
-    height: 130px;
+    height: 230px;
   }
   .type {
-    bottom: 110px;
+    bottom: 50px;
     left: 0px;
     transform: translateX(0%);
     gap: 0px;

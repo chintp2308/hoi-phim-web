@@ -73,7 +73,7 @@
 }
 @media (max-width: 768px) {
   .card {
-    width: 200px;
+    width: 48%;
   }
 
   .thumb {

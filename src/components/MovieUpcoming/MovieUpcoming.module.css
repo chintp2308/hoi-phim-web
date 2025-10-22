@@ -69,8 +69,10 @@
 
   .left {
     display: flex;
-    gap: 5px;
+    gap: 10px;
     overflow: hidden;
-    padding-right: 30px;
+    padding-right: 0px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }

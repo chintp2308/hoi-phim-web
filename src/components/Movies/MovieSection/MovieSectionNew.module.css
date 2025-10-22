@@ -48,11 +48,14 @@
   }
   .movieList {
     display: flex;
-    gap: 5px;
+    gap: 10px;
     margin-bottom: 15px;
   }
   .left {
-    gap: 5px;
+    gap: 10px;
     padding-right: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
